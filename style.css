@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+}
+
+img{
+    width: 100%;
+    border-radius: 100px;
+    display: block; 
+    margin: 0px auto;
+    width: 200px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    cursor: default;
+}
+
+h1,h4,h3,h2{
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.intro{
+    margin-top: 40px;
+    background-color: white;
+    text-align: center;
+    margin: 40px 60px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    cursor: default;
+}
+
+.profile h1{
+    font-weight: 900;
+}
+
+.intro h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.icons{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+}
+.icons li{
+    padding: 0px 12px;
+    margin: 0px 5px;
+}
+
+.icons li a{
+    color: black;
+}
+
+.icons :hover{
+    background-color: rgb(197, 197, 197);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#js-email{
+    font-size: 18px;
+    text-align: center;
+    background-color: white;
+    margin: 15px 80px;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+}

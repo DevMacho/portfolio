@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-맞춤형_크기_1">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="맞춤형_크기_1" data-name="맞춤형 크기 – 1" clip-path="url(#clip-맞춤형_크기_1)">
+    <rect width="500" height="500" fill="#fff"/>
+    <g id="사각형_1" data-name="사각형 1" transform="translate(74 166)" stroke="#030303" stroke-width="1">
+      <rect width="29" height="168" stroke="none"/>
+      <rect x="0.5" y="0.5" width="28" height="167" fill="none"/>
+    </g>
+    <g id="사각형_2" data-name="사각형 2" transform="translate(74 304)" stroke="#000" stroke-width="1">
+      <rect width="120" height="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="119" height="29" fill="none"/>
+    </g>
+    <g id="사각형_3" data-name="사각형 3" transform="translate(62 223)" fill="#003cff" stroke="#003cff" stroke-width="1">
+      <rect width="54" height="54" stroke="none"/>
+      <rect x="0.5" y="0.5" width="53" height="53" fill="none"/>
+    </g>
+    <g id="사각형_4" data-name="사각형 4" transform="translate(89 166)" stroke="#000" stroke-width="1">
+      <rect width="349" height="29" stroke="none"/>
+      <rect x="0.5" y="0.5" width="348" height="28" fill="none"/>
+    </g>
+    <g id="사각형_5" data-name="사각형 5" transform="translate(407 166)" stroke="#000" stroke-width="1">
+      <rect width="31" height="168" stroke="none"/>
+      <rect x="0.5" y="0.5" width="30" height="167" fill="none"/>
+    </g>
+    <g id="사각형_6" data-name="사각형 6" transform="translate(194 236)" stroke="#000" stroke-width="1">
+      <rect width="223" height="31" stroke="none"/>
+      <rect x="0.5" y="0.5" width="222" height="30" fill="none"/>
+    </g>
+    <g id="사각형_8" data-name="사각형 8" transform="translate(62 215)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="54" height="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="53" height="7" fill="none"/>
+    </g>
+    <g id="사각형_9" data-name="사각형 9" transform="translate(62 277)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="54" height="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="53" height="7" fill="none"/>
+    </g>
+  </g>
+</svg>
