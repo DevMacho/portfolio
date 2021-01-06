@@ -1,2 +1,3 @@
 User-agent: *
 Allow:/
+Sitemap: https://portfolio.nyaco0125.vercel.app/sitemap.xml
