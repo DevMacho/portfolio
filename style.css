@@ -3,12 +3,13 @@ body{
     background-color: rgb(238, 238, 238);
 }
 
-img{
+img.logo{
     width: 100%;
     border-radius: 100px;
     display: block; 
     margin: 0px auto;
     width: 200px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .profile{
@@ -33,6 +34,7 @@ h1,h4,h3,h2{
     padding: 8px 12px;
     border-radius: 25px;
     cursor: default;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .profile h1{
@@ -73,6 +75,7 @@ h1,h4,h3,h2{
     margin: 15px 80px;
     padding: 8px 12px;
     border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .hide{
@@ -82,4 +85,45 @@ h1,h4,h3,h2{
 .show{
     display: flex;
     justify-content: center;
+}
+
+.works-modal{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 24px;
+    margin: 100px 100px;
+    border-radius: 20px;
+    cursor: default;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+img.findpopstar{
+    width: 100%;
+    border-radius: 50px;
+    display: flex; 
+    margin: 0px auto;
+    width: 200px;
+}
+
+.title{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+}
+
+.description{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    cursor: default;
+}
+
+.previous,.next{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin: 8px 12px;
 }
