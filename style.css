@@ -121,9 +121,15 @@ img.findpopstar{
     cursor: default;
 }
 
+.buttons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
 .previous,.next{
     font-family: 'Noto Sans KR', sans-serif;
-    text-decoration: none;
     color: black;
     margin: 8px 12px;
+    cursor: pointer;
 }
