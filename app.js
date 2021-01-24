@@ -25,7 +25,7 @@ const image = document.getElementById('image');
 const title = document.querySelector('.title');
 const description = document.querySelector('.description');
 const images = ['mic.png','unnamed.jpg'];
-const titles = ['나와 닮은 팝스타 찾기','알맹쓰들을 위한 영어보관함'];
+const titles = ['<a href="https://findpopstar.tk">나와 닮은 팝스타 찾기</a>','<a href="https://almangs.cf">알맹쓰들을 위한 영어보관함</a>'];
 const descriptions = ['머신러닝을 기반으로 한 믿을 수 있는 닮은 팝스타 찾기 테스트입니다!<br>JavaScript를 이용하여 빌드하였습니다','유튜브와 연결하여 간단하게 만들다 알간지님의 요청으로 제작이 중단된 사이트입니다.'];
 
 let checker = 0
