@@ -206,10 +206,13 @@ label{
 }
 
 @media only screen and (max-width: 414px) {
-    .works-modal{
+    .works-modal,.review-modal,.request{
         margin: 100px 20px;
     }
     .intro{
         margin: 40px 20px;
+    }
+    #js-email{
+        margin: 15px 20px;
     }
 }
