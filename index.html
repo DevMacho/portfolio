@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <script defer src="app.js"></script>
+    <script defer src="email.js"></script>
     <script src="https://kit.fontawesome.com/c4986d1f0b.js"></script>
     <title>DevNyaco</title>
 </head>
@@ -35,12 +36,39 @@
     <h2 id="js-email" class="hide">fairyhappy125@kakao.com</h2>
     <div class="works-modal">
         <img id="image" src="mic.png" alt="find pop star logo" class="findpopstar">
-        <h2  class="title"><a href="https://findpopstar.tk">나와 닮은 팝스타 찾기</a></h2>
+        <h2  class="title"><a href="https://findpopstar.tk" target="__blank">나와 닮은 팝스타 찾기</a></h2>
         <p class="description">머신러닝을 기반으로 한 믿을 수 있는 닮은 팝스타 찾기 테스트입니다!<br>JavaScript를 이용하여 빌드하였습니다</p>
         <div class="buttons">
             <h4 id="next" class="previous"><</h4>
             <h4 id="previous" class="next">></h4>
         </div>
+    </div>
+    <div class="review-modal">
+        <strong>외주 후기</strong>
+        <p>진*님</p>
+        <article>⭐⭐⭐⭐⭐</article>
+        <hr>
+        <tbody>
+            <td>요청 업무:</td>
+            <tr>팀원지원,팀원확인 사이트</tr>
+            <br>
+            <td>리뷰:</td>
+            <tr>정말싸고 퀄리티도 겁나 좋아요 ㄷㄷ 조만간 큰거 하나 요청할 예정입니다!</tr>
+        </tbody>
+    </div>
+    <div class="request">
+        <strong>외주 신청</strong>
+        <hr>
+        <label>이메일: <input id="input-email" type="email" placeholder="이메일을 적어주세요"></label>
+        <label>신청할 웹사이트 종류: <select id="web">
+            <option value="">웹사이트의 종류를 선택해주세요</option>
+            <option value="introducing">소개 웹사이트</option>
+            <option value="shopping mall">쇼핑몰</option>
+            <option value="servey">설문조사</option>
+            <option value="etc">기타</option>
+        </select></label>
+        <button id="submit">신청</button>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     </div>
 </body>
 </html>

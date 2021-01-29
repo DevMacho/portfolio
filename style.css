@@ -134,6 +134,77 @@ img.findpopstar{
     cursor: pointer;
 }
 
+.review-modal{
+    background-color: #ffffff;
+    text-align: center;
+    margin: 80px 100px;
+    padding: 30px 12px;
+    border-radius: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.review-modal hr{
+    width: 60%;
+}
+
+strong{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.review-modal p{
+    margin-bottom: 0;
+}
+
+.review-modal article{
+    font-size: 24px;
+}
+
+.request{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 80px 100px;
+    padding: 30px 12px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.request strong{
+    margin-bottom: 20px;
+}
+
+.request hr{
+    width: 60%;
+}
+
+.request form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 12px;
+}
+
+#submit{
+    width: 50%;
+    margin: 20px auto;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    background-color: #e5e5e5;
+    outline: none;
+}
+
 @media only screen and (max-width: 414px) {
     .works-modal{
         margin: 100px 20px;
