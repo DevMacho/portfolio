@@ -161,30 +161,14 @@ strong{
     font-size: 24px;
 }
 
-.request{
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Noto Sans KR', sans-serif;
-    margin: 80px 100px;
-    padding: 30px 12px;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-}
-
-.request strong{
+.review-modal strong{
     margin-bottom: 20px;
 }
 
-.request hr{
+.review-modal hr{
     width: 60%;
 }
 
-.request form{
-    display: flex;
-    flex-direction: column;
-}
 
 label{
     font-family: 'Noto Sans KR', sans-serif;
