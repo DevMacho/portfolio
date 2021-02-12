@@ -44,6 +44,12 @@ const works = [
         image: 'icon.png',
         title: '<a href="https://github.com/nyaco0125/Jbot-FrontEnd" target="__blank">진이봇</a></a>',
         description: '디스코드 봇 메이킹 팀인 진이봇의 웹사이트 제작을 맡았습니다.<br>Email.js로 팀원신청을 이메일로 받을 수 있는 시스템을 구현하였습니다.'
+    },
+    {
+        id: 4,
+        image: 'dora.png',
+        title: '<a href="https://doraemon-raccoon-website.vercel.app/" target="__blank">도라에몽너구리</a>',
+        description: '래퍼 도라에몽너구리의 공식 웹사이트 제작을 맡았습니다.'
     }
 ];
 
