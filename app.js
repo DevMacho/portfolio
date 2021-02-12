@@ -49,7 +49,7 @@ const works = [
         id: 4,
         image: 'dora.png',
         title: '<a href="https://doraemon-raccoon-website.vercel.app/" target="__blank">도라에몽너구리</a>',
-        description: '래퍼 도라에몽너구리의 공식 웹사이트 제작을 맡았습니다.'
+        description: '래퍼 도라에몽너구리의 공식 웹사이트 제작을 맡았습니다.<br>디자인에 신경을 쓴 프로젝트입니다.(제작중)'
     }
 ];
 
