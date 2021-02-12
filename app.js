@@ -89,3 +89,107 @@ previous.addEventListener('click',()=>{
         controlSlider(currentSlide);
     }
 });
+
+//price calculator
+const defaultCheckBox = document.getElementById('default');
+const hostingCheckBox = document.getElementById('hosting');
+const upgradeCheckBox = document.getElementById('upgrade');
+const monthlyCheckBox = document.getElementById('monthly');
+const discountCheckBox = document.getElementById('discount');
+const result = document.getElementById('result');
+const minPriceResult = document.getElementById('minPrice');
+const maxPriceResult = document.getElementById('maxPrice');
+let minPrice = 0;
+let maxPrice = 0;
+
+defaultCheckBox.addEventListener('click',defaultAddOption);
+hostingCheckBox.addEventListener('click',hostingAddOption);
+upgradeCheckBox.addEventListener('click',upgradeAddOption);
+monthlyCheckBox.addEventListener('click',monthlyAddOption);
+discountCheckBox.addEventListener('click',discountAddOption);
+
+function defaultAddOption(){
+    if(defaultCheckBox.checked == true){
+        minPrice += 1000;
+        maxPrice += 3000;
+    } else {
+        minPrice -= 1000;
+        maxPrice -= 3000;
+    };
+    console.log(maxPrice,minPrice)
+    result.classList.remove('hide');
+    minPriceResult.innerText = `최소가격: ${minPrice}원`;
+    maxPriceResult.innerText = `최대가격: ${maxPrice}원`;
+    if(minPrice == 0 && maxPrice == 0){
+        result.classList.add('hide');
+    };
+};
+
+function hostingAddOption(){
+    if(hostingCheckBox.checked == true){
+        minPrice += 1000;
+        maxPrice += 1000;
+    } else {
+        minPrice -= 1000;
+        maxPrice -= 1000;
+    };
+    console.log(maxPrice,minPrice)
+    result.classList.remove('hide');
+    minPriceResult.innerText = `최소가격: ${minPrice}원`;
+    maxPriceResult.innerText = `최대가격: ${maxPrice}원`;
+    if(minPrice == 0 && maxPrice == 0){
+        result.classList.add('hide');
+    };
+};
+
+function upgradeAddOption(){
+    if(upgradeCheckBox.checked == true){
+        minPrice += 1000;
+        maxPrice += 10000;
+    } else {
+        minPrice -= 1000;
+        maxPrice -= 10000;
+    };
+    console.log(maxPrice,minPrice)
+    result.classList.remove('hide');
+    minPriceResult.innerText = `최소가격: ${minPrice}원`;
+    maxPriceResult.innerText = `최대가격: ${maxPrice}원`;
+    if(minPrice == 0 && maxPrice == 0){
+        result.classList.add('hide');
+    };
+};
+
+function monthlyAddOption(){
+    if(monthlyCheckBox.checked == true){
+        minPrice += 1000;
+        maxPrice += 1000;
+    } else {
+        minPrice -= 1000;
+        maxPrice -= 1000;
+    };
+    console.log(maxPrice,minPrice)
+    result.classList.remove('hide');
+    minPriceResult.innerText = `최소가격: ${minPrice}원`;
+    maxPriceResult.innerText = `최대가격: ${maxPrice}원`;
+    if(minPrice == 0 && maxPrice == 0){
+        result.classList.add('hide');
+    };
+};
+
+
+function discountAddOption(){
+    if(discountCheckBox.checked == true){
+        minPrice -= 2000;
+        maxPrice -= 2000;
+    } else {
+        minPrice += 2000;
+        maxPrice += 2000;
+    };
+    console.log(maxPrice,minPrice)
+    result.classList.remove('hide');
+    minPriceResult.innerText = `최소가격: ${minPrice}원`;
+    maxPriceResult.innerText = `최대가격: ${maxPrice}원`;
+    if(minPrice == 0 && maxPrice == 0){
+        result.classList.add('hide');
+    };
+};

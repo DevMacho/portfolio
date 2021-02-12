@@ -64,9 +64,23 @@
             <option value="shopping mall">쇼핑몰</option>
             <option value="servey">설문조사</option>
             <option value="etc">기타</option>
-        </select></label>
+        </select></label><br>
         <button id="submit">신청</button>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+       <br><br><br>
+        <strong>외주 가격 계산기</strong>
+        <hr>
+        <div class="options">
+            <label><input type="checkbox" id="default">기본 웹사이트 (1000원 - 3000원)</label><br>
+            <label><input type="checkbox" id="hosting">호스팅 및 도메인 등록 (1000원)</label><br>
+            <label><input type="checkbox" id="upgrade">웹사이트 업그레이드 (1000원 - 10000원)</label><br>
+            <label><input type="checkbox" id="monthly">매월 정기유지보수 (매월 1000원)</label><br>
+            <label><input type="checkbox" id="discount">지인할인 (2000원 할인)</label><br>
+            <div id="result" class="hide">
+                <div id="minPrice"></div>
+                <div id="maxPrice"></div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
