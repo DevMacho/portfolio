@@ -53,9 +53,12 @@ h1,h4,h3,h2{
     justify-content: center;
     padding-left: 0px;
 }
+
 .icons li{
     padding: 0px 12px;
     margin: 0px 5px;
+    transition: 0.3s;
+    border-radius: 10px;
 }
 
 .icons li a{
@@ -64,8 +67,6 @@ h1,h4,h3,h2{
 
 .icons :hover{
     background-color: rgb(197, 197, 197);
-    border-radius: 10px;
-    transition: 0.3s;
 }
 
 #js-email{

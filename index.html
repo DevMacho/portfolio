@@ -39,8 +39,8 @@
         <h2  class="title"><a href="https://findpopstar.tk" target="__blank">나와 닮은 팝스타 찾기</a></h2>
         <p class="description">머신러닝을 기반으로 한 믿을 수 있는 닮은 팝스타 찾기 테스트입니다!<br>JavaScript를 이용하여 빌드하였습니다</p>
         <div class="buttons">
-            <h4 id="next" class="previous"><</h4>
-            <h4 id="previous" class="next">></h4>
+            <h4 id="next" class="previous"><i class="fas fa-chevron-left"></i></h4>
+            <h4 id="previous" class="next"><i class="fas fa-chevron-right"></i></h4>
         </div>
     </div>
     <div class="review-modal">
@@ -57,15 +57,17 @@
         </tbody><br><br><br>
         <strong>외주 신청</strong>
         <hr>
-        <label>이메일: <input id="input-email" type="email" placeholder="이메일을 적어주세요"></label><br>
-        <label>신청할 웹사이트 종류: <select id="web">
-            <option value="">웹사이트의 종류를 선택해주세요</option>
-            <option value="introducing">소개 웹사이트</option>
-            <option value="promotion">홍보용 웹사이트</option>
-            <option value="servey">설문조사</option>
-            <option value="etc">기타</option>
-        </select></label><br>
-        <button id="submit">신청</button>
+        <form id="form" onsubmit="return false;">
+            <label>이메일: <input id="input-email" type="email" placeholder="이메일을 적어주세요" required></label><br>
+            <label>신청할 웹사이트 종류: <select id="web" required>
+                <option value="">웹사이트의 종류를 선택해주세요</option>
+                <option value="introducing">소개 웹사이트</option>
+                <option value="promotion">홍보용 웹사이트</option>
+                <option value="servey">설문조사</option>
+                <option value="etc">기타</option>
+            </select></label><br>
+            <input type="submit" id="submit"></input>
+        </form>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
        <br><br><br>
         <strong>외주 가격 계산기</strong>
