@@ -108,6 +108,22 @@ upgradeCheckBox.addEventListener('click',upgradeAddOption);
 monthlyCheckBox.addEventListener('click',monthlyAddOption);
 discountCheckBox.addEventListener('click',discountAddOption);
 
+function showPrice(){
+    result.classList.remove('hide');
+    minPriceResult.innerText = `최소가격: ${minPrice}원`;
+    maxPriceResult.innerText = `최대가격: ${maxPrice}원`;
+    if(minPrice == 0 && maxPrice == 0){
+        result.classList.add('hide');
+    };
+    if(minPrice < 0){
+        minPriceResult.innerText = `최소가격: 0원`;
+    }
+    if(maxPrice < 0){
+        minPriceResult.innerText = `최소가격: 0원`;
+        maxPriceResult.innerText = `최대가격: 0원`;
+    }
+}
+
 function defaultAddOption(){
     if(defaultCheckBox.checked == true){
         minPrice += 1000;
@@ -117,12 +133,7 @@ function defaultAddOption(){
         maxPrice -= 3000;
     };
     console.log(maxPrice,minPrice)
-    result.classList.remove('hide');
-    minPriceResult.innerText = `최소가격: ${minPrice}원`;
-    maxPriceResult.innerText = `최대가격: ${maxPrice}원`;
-    if(minPrice == 0 && maxPrice == 0){
-        result.classList.add('hide');
-    };
+    showPrice();
 };
 
 function hostingAddOption(){
@@ -134,12 +145,7 @@ function hostingAddOption(){
         maxPrice -= 1000;
     };
     console.log(maxPrice,minPrice)
-    result.classList.remove('hide');
-    minPriceResult.innerText = `최소가격: ${minPrice}원`;
-    maxPriceResult.innerText = `최대가격: ${maxPrice}원`;
-    if(minPrice == 0 && maxPrice == 0){
-        result.classList.add('hide');
-    };
+    showPrice();
 };
 
 function upgradeAddOption(){
@@ -151,12 +157,7 @@ function upgradeAddOption(){
         maxPrice -= 10000;
     };
     console.log(maxPrice,minPrice)
-    result.classList.remove('hide');
-    minPriceResult.innerText = `최소가격: ${minPrice}원`;
-    maxPriceResult.innerText = `최대가격: ${maxPrice}원`;
-    if(minPrice == 0 && maxPrice == 0){
-        result.classList.add('hide');
-    };
+    showPrice();
 };
 
 function monthlyAddOption(){
@@ -168,12 +169,7 @@ function monthlyAddOption(){
         maxPrice -= 1000;
     };
     console.log(maxPrice,minPrice)
-    result.classList.remove('hide');
-    minPriceResult.innerText = `최소가격: ${minPrice}원`;
-    maxPriceResult.innerText = `최대가격: ${maxPrice}원`;
-    if(minPrice == 0 && maxPrice == 0){
-        result.classList.add('hide');
-    };
+    showPrice();
 };
 
 
@@ -186,10 +182,5 @@ function discountAddOption(){
         maxPrice += 2000;
     };
     console.log(maxPrice,minPrice)
-    result.classList.remove('hide');
-    minPriceResult.innerText = `최소가격: ${minPrice}원`;
-    maxPriceResult.innerText = `최대가격: ${maxPrice}원`;
-    if(minPrice == 0 && maxPrice == 0){
-        result.classList.add('hide');
-    };
+    showPrice();
 };
