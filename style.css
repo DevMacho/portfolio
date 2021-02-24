@@ -260,24 +260,83 @@ label {
 	border-radius: 20px;
 }
 
+.skill-bar {
+	animation-duration: 2s;
+}
+
 .html-bar {
+	animation-name: html-animation;
 	width: 70%;
 }
 
+@keyframes html-animation {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 70%;
+	}
+}
+
 .css-bar {
+	animation-name: css-animation;
 	width: 50%;
 }
 
+@keyframes css-animation {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 50%;
+	}
+}
+
 .js-bar {
+	animation-name: js-animation;
 	width: 60%;
 }
 
+@keyframes js-animation {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 60%;
+	}
+}
+
 .python-bar {
+	animation-name: python-animation;
 	width: 40%;
 }
 
+@keyframes python-animation {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 40%;
+	}
+}
+
 .react-bar {
+	animation-name: react-animation;
 	width: 20%;
+}
+
+@keyframes react-animation {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 20%;
+	}
 }
 
 .percentage {
