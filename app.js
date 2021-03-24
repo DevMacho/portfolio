@@ -35,18 +35,24 @@ const works = [
     },
     {
         id: 2,
+        image: 'email.png',
+        title: '<a href="https://sunaeclass.tk" target="_blank">학교 시간 알리미</a>',
+        description: '반 친구들이 온라인 수업을 쉽게 참여할 수 있도록 만든 프로젝트입니다!'
+    },
+    {
+        id: 3,
         image: 'unnamed.jpg',
         title: '<a href="https://almangs.cf" target="__blank">알맹쓰들을 위한 영어보관함</a>',
         description: '유튜브와 연결하여 간단하게 만들다<br>알간지님의 요청으로 제작이 중단된 사이트입니다.'
     },
     {
-        id: 3,
+        id: 4,
         image: 'icon.png',
         title: '<a href="https://github.com/nyaco0125/Jbot-FrontEnd" target="__blank">진이봇</a></a>',
         description: '디스코드 봇 메이킹 팀인 진이봇의 웹사이트 제작을 맡았습니다.<br>Email.js로 팀원신청을 이메일로 받을 수 있는 시스템을 구현하였습니다.'
     },
     {
-        id: 4,
+        id: 5,
         image: 'dora.png',
         title: '<a href="https://doraemon-raccoon-website.vercel.app/" target="__blank">도라에몽너구리</a>',
         description: '래퍼 도라에몽너구리의 공식 웹사이트 제작을 맡았습니다.<br>디자인에 신경을 쓴 프로젝트입니다.(제작중)'
