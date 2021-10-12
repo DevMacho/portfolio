@@ -225,13 +225,15 @@ label {
 }
 
 .skillsets {
-	background-color: #ffffff;
-	margin: 80px 100px;
-	padding: 30px 20px;
-	border-radius: 20px;
-	text-align: center;
-	font-family: 'Noto Sans KR', sans-serif;
-	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 24px;
+    border-radius: 20px;
+    cursor: default;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin: 100px 20px;
 }
 
 .skillsets hr {
