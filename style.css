@@ -196,7 +196,8 @@ label {
 @media only screen and (max-width: 414px) {
 	.works-modal,
 	.review-modal,
-	.request {
+	.request,
+	.skillsets{
 		margin: 100px 20px;
 	}
 	.intro {
@@ -226,6 +227,7 @@ label {
 
 .skillsets {
     background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
     display: flex;
     flex-direction: column;
     text-align: center;
