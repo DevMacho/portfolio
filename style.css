@@ -226,9 +226,8 @@ label {
 
 .skillsets {
 	background-color: #ffffff;
-	margin: 80px 100px;
-	padding: 30px 20px;
-	border-radius: 20px;
+	padding: 30px 10px;
+	padding-left: 30px;
 	text-align: center;
 	font-family: 'Noto Sans KR', sans-serif;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -256,7 +255,8 @@ label {
 }
 
 .skill-bar {
-	background-color: black;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 12%, rgba(104,186,165,1) 100%);
 	border-radius: 20px;
 }
 
@@ -343,4 +343,47 @@ label {
 	font-family: 'Noto Sans KR', sans-serif;
 	font-size: 20px;
 	font-weight: 800;
+}
+
+.custom-shape-divider-top-1634739777 {
+    position: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+	box-shadow: 10 -15px -20px rgba(50, 50, 93, 0.51), 20px 10px 15px rgba(0, 0, 0, 0.08);
+}
+
+.custom-shape-divider-top-1634739777 svg {
+    position: relative;
+    display: block;
+    width: calc(149% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-top-1634739777 .shape-fill {
+    fill: white;
+}
+
+.custom-shape-divider-bottom-1634739880 {
+    position: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+	box-shadow: 10 15px 20px rgba(50, 50, 93, 0.51), 20px 10px 15px rgba(0, 0, 0, 0.08);
+}
+
+.custom-shape-divider-bottom-1634739880 svg {
+    position: relative;
+    display: block;
+    width: calc(149% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-bottom-1634739880 .shape-fill {
+    fill: white;
 }
